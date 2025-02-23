@@ -1,0 +1,167 @@
+@media (max-width: 1200px) {
+    body{
+        background-color: #f7f7f7;
+    }
+  .intro {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .side{
+    width: 30%;
+  }
+  .head{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .img{
+    width: 100%;
+  }
+
+  .mypic
+  {
+    width: calc(100% - 20px);
+    margin: auto;
+  }
+
+  .summary{
+    margin: auto;
+  }
+
+  .main{
+    padding: 0;
+    margin-top: 90px;
+    width: 70%;
+    padding: 20px;
+  }
+
+  .unbound{
+    width: 100%;
+    font-size: calc(1rem + 3.5vw);
+  }
+
+  .des{
+    flex: 100%;
+    order: 0;
+  }
+  .desc-{
+    margin: 10px;
+  }
+  .info{
+    position: relative;
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 50px 0
+  }
+  .desc{
+    order: 2;
+  }
+    
+}
+
+@media (max-width: 992px) {
+    .intro{
+        margin-bottom: 70px;
+    }
+    body{
+        background-color: #fff;
+    }
+    .main{
+        width: 100%;
+    }
+    .side{
+        display: none;
+    }
+
+    .bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        top: 0;
+        right: 20px;
+        position: fixed;
+    }
+    .bar-line{
+        border-bottom: 4px solid black;
+        margin-bottom: 10px;
+        width: 50px;
+    }
+
+    .big-img{
+        width: 100vw;
+    }
+    .nav-{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9999;
+        height: 90px;
+    }
+
+    .in-side{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .active{
+        display: block;
+        width: 100%;
+        height: calc(100vh - 90px);
+        margin-top: 90px;
+    }
+
+    .logo{
+        position: relative;
+    }
+
+    .about-container{
+        flex-direction: column;
+    }
+    .email{
+        width: 100%;
+        z-index: 0;
+    }
+
+    .serv-desc{
+        width: 100%;
+    }
+
+    .port-start{
+        width: 100%;
+    }
+    .aboutme{
+        width: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .service{
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    .left{
+        margin-bottom: 20px;
+    }
+
+    .name-{
+        font-size: 50px;
+        left: 50%;
+        top: -40px;
+        transform: rotate(-5deg);
+    }
+
+    .exp-flex{
+        flex-direction: column;
+    }
+
+    .mypic{
+        height: calc(100vh - 400px);
+    }
+    
+}
