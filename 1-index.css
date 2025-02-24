@@ -47,6 +47,7 @@
   }
   .desc-{
     margin: 10px;
+    order: 3;
   }
   .info{
     position: relative;
@@ -92,7 +93,7 @@
     }
 
     .big-img{
-        width: 100vw;
+        width: 100%;
     }
     .nav-{
         position: fixed;
@@ -162,6 +163,7 @@
 
     .mypic{
         height: calc(100vh - 400px);
+        min-height: 300px;
     }
     
 }
