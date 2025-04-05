@@ -73,6 +73,7 @@
    z-index: 99;
    position: relative;
    margin-left: 1vw;
+   min-height: 500px;
  }
  .z-index{
   z-index: 999;
