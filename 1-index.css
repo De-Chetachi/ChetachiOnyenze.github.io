@@ -95,6 +95,10 @@
     .big-img{
         width: 100%;
     }
+
+    .mypic{
+      min-height: 500px;
+    }
     .nav-{
         position: fixed;
         top: 0;
@@ -164,7 +168,6 @@
     .mypic{
         height: calc(100vh - 400px);
         min-height: 300px;
-        min-height: 500px;
     }
     
 }
