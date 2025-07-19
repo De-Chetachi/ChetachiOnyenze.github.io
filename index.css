@@ -230,6 +230,27 @@
   height: 400px;
 }
 
+/* .pro-img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mypov-img{
+  background-image: url("mypov.png");
+  height: 400px;
+} */
+
+.mypov-image{
+  height: inherit;
+  width: inherit;
+}
+
+.small-mypov{
+  display: none;
+  height: inherit;
+  width: inherit;
+}
+
 .name-{
   position: relative;
   left: 60%;

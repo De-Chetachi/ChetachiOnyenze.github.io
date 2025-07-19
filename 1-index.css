@@ -146,6 +146,12 @@
 }
 
 @media (max-width: 770px) {
+  /* .mypov-image{
+    display: none;
+  }
+  .small-mypov {
+    display: inline;
+  } */
     .service{
         flex-direction: column;
         padding: 40px 0;
